@@ -78,3 +78,62 @@ function kph(km, hr){
     return km / hr + " km/h";
 }
 console.log(kph("360", "3"));
+
+
+//functions to take 2 parameters and return console log the result using the multiplier *
+function ageInDays(years, days){
+    return years * days + " days old";
+}
+console.log(ageInDays("38", "365"));
+
+const multi = (param1, param2) => {
+    return param1 * param2;
+}
+console.log(multi(4, 5));
+
+const multi2 = function (param1, param2){
+    return param1 * param2;
+}
+console.log(multi2(4, 5));
+
+function multiply(param1, param2){
+    return param1 * param2;
+}
+console.log(multiply(4, 5));
+
+//function to add two strings together and return with space between
+
+function words(w1, w2){
+    return w1 + " " + w2;
+}
+console.log(words("Hi", "Roger"));
+
+//function to take guys name and girls name and ? or !
+//
+
+function people(name1, name2, punctuation){
+    return "Will " + name1 + " give a passing grade to " + name2 + " " + punctuation;
+}
+console.log(people("Roger", "Russ", "?"));
+
+//---------------------------------------2020-01-23-----------------------------------------------------------------------------------------------------------------------------------
+
+// var person = {
+//     fName: "Russ",
+//     lName: "N",
+//     id   : 802,
+//     fullN: function () {
+//         return this.lName + ", " + this.fName;
+//     }    
+// }
+
+// name = person.fullN();
+// document.getElementById("p1").innerHTML = this.fName();
+
+function changefont()
+            {
+
+                var x = document.getElementById("cn");
+                x.style.fontSize = "25px";           
+                x.style.color = "red"; 
+            }
