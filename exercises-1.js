@@ -24,7 +24,7 @@ animal.name = "Lion";
 animal.species = "P.leo";
 animal.genua = "Panthera";
 animal.rank = 2;
-// Exercise 6: Create a function that asks for a name and returns the name as output
+//Exercise 6: Create a function that asks for a name and returns the name as output
 let name = prompt("Please enter your name", "");
 alert("Your name is " + name);
 // Exercise 7: Why doesn't this work? See question below. You must solve the mystery!!
@@ -32,7 +32,7 @@ alert("Your name is " + name);
 let husbandAge = prompt('How old are you?', 55);
 let wifeAge = prompt('How old are you?', 45);
 let hAge, wAge;                  //Because it is concatenating husbandAge and wifeAge together as strings
-hAge = parseInt(husbandAge);
-wAge = parseInt(wifeAge)
+hAge = parseInt(husbandAge);     //to change from string to number variable use "parseInt" 
+wAge = parseInt(wifeAge);
 // Why doesn't this work? I see 5545 and it should be 100 right? 
 alert("You are " + (hAge + wAge) + " years old!"); // You are 100 years old!

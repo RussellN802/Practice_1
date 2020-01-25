@@ -1,11 +1,29 @@
 body {
-    background-color: black;
+    background-image: url("https://cdn.pixabay.com/photo/2015/04/01/11/08/sillouette-702178_1280.jpg");
+    background-size: cover;
+    font-family: Lucida Console;
 }
 
 h1 {
     color: #44F70E;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: white; 
 }
 
 p {
-    color: #44F70E;
+    color: white;
 }
+
+h3 {
+    color: #44F70E;
+    font-style: oblique;
+    text-decoration: underline;
+    text-decoration-color: #44F70E;
+
+}
+
+pre {
+    color: white;
+}
+
