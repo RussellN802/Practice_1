@@ -1,4 +1,4 @@
 # Practice_1
-## HTML Practice 1
+## HTML, CSS and JS Practice 1
 
-This is a file of HTML practice pages for TECH1101-WIN2020
+This is a repository of practice files for TECH1101-WIN2020
